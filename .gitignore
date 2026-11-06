@@ -1,0 +1,18 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# داتا وأوزان (ثقيلة - ما ترفعها على GitHub)
+data/midi/*
+!data/midi/README.txt
+data/*.pkl
+checkpoints/
+output/
+
+# Model weights, videos, generated output
+*.pt
+*.mp4
+*.avi
